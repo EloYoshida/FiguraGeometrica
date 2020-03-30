@@ -13,7 +13,11 @@ public class Geometria {
 		lista.add(new Retangulo (5,10));
 		lista.add(new Triangulo (10,5));
 		
-		System.out.println(lista);
+
+		for (Figura fig:lista) { // Roda toda Array posição por posição e puxa o objeto pra variável que nomeamos como "fig"
+			
+			System.out.println(fig);
+		}
 		
 	}
 

@@ -12,10 +12,19 @@ public class Losango extends Poligono {
 		return super.getAltura()*super.getBase();
 	}
 
+	
+
 	@Override
-	public String toString() {
-		return "Losango [area()=" + area() + "]";
+	public double perimetro() {
+		
+		return 4*super.getBase();
 	}
 
+	@Override
+	public String toString() {
+		return "Losango [area()=" + area() + ", perimetro()=" + perimetro() + "]";
+	}
+
+	
 	
 }
