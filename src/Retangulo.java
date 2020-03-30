@@ -18,4 +18,10 @@ public class Retangulo extends Poligono implements Diagonal {
 		return Math.sqrt(calc) ; 	// raiz quadrada do resultado
 		}
 
+	@Override
+	public String toString() {
+		return "Retangulo [area()=" + area() + ", CalcDiag()=" + CalcDiag() + "]";
+	}
+
+	
 }

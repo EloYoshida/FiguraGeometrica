@@ -14,5 +14,11 @@ public class Circulo extends Figura {
 		return Math.PI*Math.pow(this.raio, 2);
 	}
 
+	@Override
+	public String toString() {
+		return "Circulo [area()=" + area() + "]";
+	}
+
+	
 	
 }

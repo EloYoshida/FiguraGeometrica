@@ -12,6 +12,9 @@ public class Geometria {
 		lista.add(new Quadrado(4));
 		lista.add(new Retangulo (5,10));
 		lista.add(new Triangulo (10,5));
+		
+		System.out.println(lista);
+		
 	}
 
 }

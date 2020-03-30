@@ -17,6 +17,12 @@ public class Quadrado extends Poligono implements Diagonal{
 		
 		return super.getAltura()*Math.sqrt(2);
 	}
+
+	@Override
+	public String toString() {
+		return "Quadrado [area()=" + area() + ", CalcDiag()=" + CalcDiag() + "]";
+	}
+	
 	
 	
 }

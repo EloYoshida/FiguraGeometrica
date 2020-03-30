@@ -12,5 +12,11 @@ public class Triangulo extends Poligono {
 		return super.getAltura()*super.getBase()/2;
 	}
 
+	@Override
+	public String toString() {
+		return "Triangulo [area()=" + area() + "]";
+	}
+
+	
 	
 }
