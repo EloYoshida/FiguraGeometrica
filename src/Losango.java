@@ -6,4 +6,11 @@ public class Losango extends Poligono {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public double area() {
+		
+		return super.getAltura()*super.getBase();
+	}
+
+	
 }
